@@ -54,6 +54,8 @@
     height: 94px;
     border-radius: 5px 0px 0px 5px;    
 	border: 2px solid #a8cae5;
+	padding: 5px 40px;
+    font-size: 31px;
 }
 
 .search-field .title-field input{
@@ -72,15 +74,50 @@
     position: relative;
     left: -4px;
     border-radius: 0px 5px 5px 0px;
-    top: -2px;
+    top: -7px;
 }
 
 .pb_cover_v3 a:hover, .pb_xl_py_cover a:hover{
 	border-bottom: 2px solid transparent;
 }
 
+.section-featured{
+	text-align: center;
+	margin: 68px auto ;
+}
+
+.__ft{
+	margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 300 ;
+}
+
+.logo-2{
+	display: none;
+}
+
+.navbar.awake .logo{
+	display: none;
+}
+
+.navbar.awake .logo-2{
+	display: block;
+}
+
+.section-slider{
+	padding: 100px 50px;
+	background-image: linear-gradient(to top left, #1caaff, #1271b1);
+}
+
 @media (min-width: 1200px){
 	.container.__full{
 	    max-width: 1840px;
+	}
+	.container.__full-abs{
+		max-width: 100%;	
 	}
 }
