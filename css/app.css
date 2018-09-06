@@ -92,6 +92,7 @@ body{
 }
 
 .search-field .title-field{
+	outline: none;
 	width: calc(100% - 213px);
     display: inline-block;
     border: none;
@@ -136,6 +137,15 @@ body{
     margin: 68px auto 59px auto;
 }
 
+.section-featured.__2{
+	margin: 177px auto 59px auto;
+}
+
+.section-featured.__2 .__ft{
+	margin-right: -72px;
+    font-size: 2.28rem;
+}
+
 .__ft{
 	margin-bottom: 0.5rem;
     font-family: inherit;
@@ -165,14 +175,14 @@ body{
 }
 
 .section-slider{
-	padding: 100px 50px;
+	padding: 100px 50px 116px 50px;
 	background-image: linear-gradient(to top left, #1caaff, #1271b1);
 }
 
 .wide-slider .item
 {
-	width: 390px;
-	height: 390px;
+	width: 389px;
+	height: 389px;
 	background: white;
 	border-radius: 15px;
 	position: relative;
@@ -240,11 +250,11 @@ body{
 }
 
 .slick-dots{
-	bottom: -85px;
+	bottom: -97px;
 }
 
 .slick-dots li{
-
+	    margin: 0 9px;
 }
 
 .slick-dots li.slick-active button:before{
@@ -257,6 +267,8 @@ body{
 	opacity: 1;
 	content: "";
 	background: #99cdf2;
+	width: 25px;
+    height: 25px;
 
 }
 
@@ -269,19 +281,47 @@ body{
 }
 
 .__sp{
-	padding-top: 50px;
+	padding-top: 56px;
+	padding-left: 26px;
 }
 
 .__top{
-	padding-top: 74px;
+	padding-top: 40px;
+	line-height: 1.35;
+}
+
+.__custom-1{
+
+}
+
+.col.__sp h1{
+	color: #4f4f4f;
+	font-size: 3.06rem;
+	font-weight: 400 !important;  
 }
 
 .__pos .bottom-btns{
 	position: absolute;
-    bottom: -90px;
+    bottom: -101px;
     right: 0;
-    margin-right: 35px;
+    margin-right: 11px;
     z-index: 10;
+}
+
+.__pos .bottom-btns .btn:first{
+	background-color: #3faffb;
+    border-color: #3faffb;
+    padding: 0.8rem 3.4em;
+}
+
+.__pos .bottom-btns .btn:second{
+	background-color: #3faffb;
+    border-color: #3faffb;
+    padding: 0.8rem 1.27em;
+}
+
+.__pos .bottom-btns .btn{
+
 }
 
 .section-features .clouds-bg{
@@ -302,25 +342,34 @@ body{
 }
 
 .section-features .bt-cont{
-	width: 380px;
+	width: 382px;
     height: 102px;
-    margin-top: 120px;
+    margin-top: 84px;
+    margin-left: 10px;
 }
 
 .section-features .bt-cont .btn{
 	width: 100%;
-	height: 100%;
-	font-size: 29px;
-    line-height: 2.5;	
+    height: 100%;
+    font-size: 38px;
+    line-height: 2.3;
+    border-radius: 10px;	
+}
+
+.section-features.__1{
+	padding-bottom: 0em;
 }
 
 .section-features.__2 .col.__sp{
-	padding-left: 50px;
+	padding-left: 106px;
+	padding-top: 110px;
 }
 
 .section-features.__2 .bt-cont {
-	margin: auto;    
-    margin-top: 120px;
+	margin: auto;
+    margin-top: 87px;
+    width: 382px;
+    margin-left: 203px;
 }
 
 .section-features.__2{
@@ -350,6 +399,11 @@ body{
     	padding-left: 17px;
 	}
 	.container.__full-abs{
-		max-width: 100%;	
+		max-width: 100%;
+		margin-top: -14px;	
+	}
+	.container.__full.__custom-1{
+		max-width: 1840px;
+		margin-top: 119px;
 	}
 }
