@@ -66,6 +66,7 @@
 	display: inline-block;
 	width: auto;
 	position: relative;
+	vertical-align: top;
 }
 
 .search-field .title-button .btn{
@@ -74,7 +75,7 @@
     position: relative;
     left: -4px;
     border-radius: 0px 5px 5px 0px;
-    top: -7px;
+    top: 1px;
 }
 
 .pb_cover_v3 a:hover, .pb_xl_py_cover a:hover{
@@ -111,6 +112,113 @@
 .section-slider{
 	padding: 100px 50px;
 	background-image: linear-gradient(to top left, #1caaff, #1271b1);
+}
+
+.wide-slider .item
+{
+	width: 390px;
+	height: 390px;
+	background: white;
+	border-radius: 15px;
+	position: relative;
+	margin: auto; 
+}
+
+.wide-slider .item .bt-cont{
+	padding: 10px 30px 0px 30px;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 102px;
+}
+
+.wide-slider .item .bt-cont .btn{
+	height: 100%;
+    width: 100%;
+    font-size: 29px;
+    line-height: 2.5;
+}
+
+.wide-slider .item .item-cont{
+	padding: 30px;
+}
+
+.wide-slider .item .item-cont .item-cont__title {
+	padding-bottom: 30px;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.wide-slider .item .item-cont .item-cont__title:after {
+	/*content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	border-bottom: 2px solid #dcdcdc;*/
+}
+
+.wide-slider .item .item-cont .item-cont__title .img{
+	width: 100px;
+}
+
+.wide-slider .item .item-cont .item-cont__title .img ,
+.wide-slider .item .item-cont .item-cont__title .desc{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wide-slider .item .item-cont .item-cont__title .desc{
+	padding: 11px 10px 16px 30px;
+    font-size: 30px;
+    width: calc(100% - 110px);
+    line-height: 37px;
+}
+
+.wide-slider .item .item-cont .distance{
+	font-size: 18px;
+    margin-top: 38px;
+    text-align: right;
+    padding-right: 13px;
+}
+
+.wide-slider .item .item-cont .item-cont__title .img image{
+	width: 100%;
+}
+
+.slick-dots{
+	bottom: -85px;
+}
+
+.slick-dots li{
+
+}
+
+.slick-dots li.slick-active button:before{
+	opacity: 1;
+	background: white;
+}
+
+.slick-dots li button:before{
+	color: transparent;
+	opacity: 1;
+	content: "";
+	background: #99cdf2;
+
+}
+
+.slick-arrow{
+	display: none !important;
+}
+
+.__pos{
+	position: relative;
+}
+
+.__pos .bottom-btns{
+	position: absolute;
+    bottom: -90px;
+    right: 0;
+    margin-right: 35px;
+    z-index: 10;
 }
 
 @media (min-width: 1200px){
