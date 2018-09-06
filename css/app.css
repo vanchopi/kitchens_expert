@@ -1,3 +1,86 @@
+*{
+	color:#4f4f4f;
+}
+
 .m{
 	background: transparent;
+}
+
+.pb_gradient_v1:before{
+	background: transparent;
+	content: none;
+}
+
+.cover-bg-indigo:before{
+	background: transparent;
+}
+
+.section-home{
+	background-image: url("https://via.placeholder.com/1920x1080");
+}
+
+.pb_slant-light:after, .pb_slant-white:after{
+	content: none;
+}
+
+.logo{
+
+}
+
+.home__top-title{
+
+}
+
+.home__top-title .title-text{
+	font-weight: bold;
+}
+
+.home__top-title .title-text h1{
+	font-weight: bold !important;	
+	font-size: 35px;
+	font-style: italic;
+	text-align: center;
+}
+
+.search-field{
+	max-width: 976px;
+    margin: auto;
+}
+
+.search-field .title-field{
+	    width: calc(100% - 150px);
+    display: inline-block;
+    border: none;
+    height: 94px;
+    border-radius: 5px 0px 0px 5px;    
+	border: 2px solid #a8cae5;
+}
+
+.search-field .title-field input{
+	width: 100%;
+}
+
+.search-field .title-button{
+	display: inline-block;
+	width: auto;
+	position: relative;
+}
+
+.search-field .title-button .btn{
+	height: 92px;
+    line-height: 3.5;
+    position: relative;
+    left: -4px;
+    border-radius: 0px 5px 5px 0px;
+    top: -2px;
+}
+
+.pb_cover_v3 a:hover, .pb_xl_py_cover a:hover{
+	border-bottom: 2px solid transparent;
+}
+
+@media (min-width: 1200px){
+	.container.__full{
+	    max-width: 1840px;
+	}
 }
