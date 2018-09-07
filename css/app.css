@@ -640,4 +640,11 @@ footer .nav-link{
 	.section-slider {
 	    padding: 100px 0px 150px 0px;
 	}
+	.wide-slider .item{
+		width: 100%;
+	}
+}
+
+@media  (max-width: 520px){
+
 }
