@@ -362,6 +362,8 @@ i {
 
 .section-features .phone-img{
 	text-align: center;
+	position: relative;
+    z-index: 10;
 }
 
 .section-features .phone-img img{
@@ -560,5 +562,70 @@ footer .nav-link{
 	.container.__full.__custom-1{
 		max-width: 1840px;
 		margin-top: 119px;
+	}
+}
+
+
+@media  (max-width: 1199px){
+	.section-slider {
+	    padding: 100px 50px 150px 50px;
+	}
+	.__pos .bottom-btns {
+	    position: absolute;
+	    bottom: -171px;
+	    right: 0;
+	    margin-right: 11px;
+	    z-index: 10;
+	    left: 0px;
+	    margin: auto;
+	    width: 234px;
+	    height: 50px;
+	}
+	.section-features .clouds-bg{
+		position: relative;
+	    bottom: 0;
+	    left: 0;
+	    margin-left: 0;
+	}
+}
+
+@media  (max-width: 991px){
+	.section-features .bt-cont{
+		margin: auto;
+		margin-top: 84px;
+		margin-bottom: 84px;
+	}
+	.__sp{
+		padding-left: 15px;
+	}
+	.section-features.__2 .col.__sp{
+		padding-left: 15px;
+    	padding-top: 15px;
+	}
+	.section-features.__2 .bt-cont{
+		margin: auto;
+		margin-top: 84px;
+	}
+}
+
+@media  (max-width: 554px){
+	.search-field .title-field{
+		display: block;
+	    width: calc(100%);
+	    border-radius: 10px;
+	}
+	.search-field .title-button{
+		display: block;
+		margin: auto;
+    	margin-top: 28px;
+	}
+	.search-field .title-button .btn{
+		border-radius: 10px;
+	}
+}
+
+@media  (max-width: 540px){
+	.section-slider {
+	    padding: 100px 0px 150px 0px;
 	}
 }
