@@ -462,6 +462,67 @@ i {
     color: #16d0c5;
 }
 
+footer .footer-widget .widget-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #20509e;    
+    font-weight: 500;
+}
+
+.footer-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-widget ul a {
+    font-size: 16px;
+    color: #75849a;
+    display: block;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+footer .social .facebook {
+    background: #4b6cd0;
+}
+
+footer .social .google {
+    background: #f03b3b;
+}
+
+footer .social .instagram {
+    background: #bb8950;
+}
+
+footer .social a:last-child {
+    margin-right: 0;
+}
+
+footer .social .twitter {
+    background: #49a7f3;
+}
+
+footer .social a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+footer .fa:before{
+	color: white;
+}
+
+footer .nav-link{
+	padding: inherit;	
+}
+
 @media (min-width: 1200px){
 	.container.__full{
 	    max-width: 1885px;
